@@ -1,0 +1,28 @@
+
+# Formatting & Comments
+Line length: 80
+Comment critical logics or business only.
+Apply one formatter (black, ruff or autopep8)
+Line spaces blank spaces should be maintained as per PEP8 Style guide
+
+
+# Files, Classes, Functions, Variables
+Avoid long names for  file/folder, class, variable or functions
+Class, Function, Variable names must make sense of it's job, scope and business
+Functions should use as less parameters as possible.
+Return and parameters must be TYPED.
+
+
+# Values, Strings, Numbers
+Give a name for numbers, texts/string values in code.
+Use constants where possible, values shouldn't be repeated.
+If same value means different things in different places, create multiple constants.
+
+
+# Code Location
+Make sure code fits best place/folder.
+Team should be able to navigate easily in codebase easily.
+
+
+# Code Review
+Smallest changes can be reviewed by team members.
